@@ -1,0 +1,23 @@
+/* [project]/09-auth/app/(private routes)/notes/filter/LayoutNotes.module.css [app-client] (css) */
+.LayoutNotes-module__M5C75a__container {
+  flex-direction: row;
+  height: 100vh;
+  display: flex;
+}
+
+.LayoutNotes-module__M5C75a__sidebar {
+  color: #fff;
+  background-color: #2c2c2c;
+  border-right: 1px solid #ddd;
+  flex-direction: column;
+  width: 250px;
+  height: 100vh;
+  padding: 16px;
+  display: flex;
+}
+
+.LayoutNotes-module__M5C75a__notesWrapper {
+  width: 100%;
+}
+
+/*# sourceMappingURL=09-auth_app_%28private%20routes%29_notes_filter_LayoutNotes_module_216959fb.css.map*/

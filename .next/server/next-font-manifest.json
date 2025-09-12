@@ -1,12 +1,9 @@
 {
   "app": {
-    "[project]/08-zustand/app/notes/action/create/page": [
+    "[project]/09-auth/app/_not-found/page": [
       "static/media/ce62453a442c7f35-s.p.a9507876.woff2"
     ],
-    "[project]/08-zustand/app/notes/filter/[...slug]/page": [
-      "static/media/ce62453a442c7f35-s.p.a9507876.woff2"
-    ],
-    "[project]/08-zustand/app/page": [
+    "[project]/09-auth/app/page": [
       "static/media/ce62453a442c7f35-s.p.a9507876.woff2"
     ]
   },

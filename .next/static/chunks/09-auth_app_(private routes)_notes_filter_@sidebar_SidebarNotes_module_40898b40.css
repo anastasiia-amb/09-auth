@@ -1,0 +1,26 @@
+/* [project]/09-auth/app/(private routes)/notes/filter/@sidebar/SidebarNotes.module.css [app-client] (css) */
+.SidebarNotes-module__7i_jJq__menuList {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.SidebarNotes-module__7i_jJq__menuItem {
+  margin-bottom: 16px;
+}
+
+.SidebarNotes-module__7i_jJq__menuLink {
+  color: #fff;
+  padding: 8px 16px;
+  font-size: 16px;
+  text-decoration: none;
+  transition: background-color .3s;
+  display: block;
+}
+
+.SidebarNotes-module__7i_jJq__menuLink:hover {
+  color: #ddd;
+  background-color: #444;
+}
+
+/*# sourceMappingURL=09-auth_app_%28private%20routes%29_notes_filter_%40sidebar_SidebarNotes_module_40898b40.css.map*/

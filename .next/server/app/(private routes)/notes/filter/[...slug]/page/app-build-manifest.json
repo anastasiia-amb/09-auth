@@ -1,0 +1,32 @@
+{
+  "pages": {
+    "/(private routes)/notes/filter/[...slug]/page": [
+      "static/chunks/3b903_a1001db4._.js",
+      "static/chunks/09-auth_435b872b._.js",
+      "static/chunks/[root-of-the-server]__d3bbd0d5._.css",
+      "static/chunks/09-auth_app_layout_tsx_2dd0c3c6._.js",
+      "static/chunks/09-auth_app_Home_module_9a6c5e6f.css",
+      "static/chunks/09-auth_app_not-found_tsx_5bf3014a._.js",
+      "static/chunks/3b903_next_dist_client_components_builtin_global-error_5bf3014a.js",
+      "static/chunks/09-auth_app_(private routes)_notes_filter_LayoutNotes_module_216959fb.css",
+      "static/chunks/09-auth_app_(private routes)_notes_filter_layout_tsx_5bf3014a._.js",
+      "static/chunks/09-auth_app_(private routes)_notes_filter_[___slug]_error_tsx_4164881b._.js",
+      "static/chunks/09-auth_app_(private routes)_notes_filter_[___slug]_error_tsx_bbbac680._.js",
+      "static/chunks/3b903_e128c919._.js",
+      "static/chunks/09-auth_6f32b33f._.js",
+      "static/chunks/09-auth_90205d8d._.css",
+      "static/chunks/09-auth_app_(private routes)_notes_filter_[___slug]_page_tsx_bbbac680._.js",
+      "static/chunks/09-auth_app_(private routes)_notes_filter_@sidebar_SidebarNotes_module_40898b40.css",
+      "static/chunks/09-auth_app_(private routes)_notes_filter_@sidebar_default_tsx_bbbac680._.js",
+      "static/chunks/[turbopack]_browser_dev_hmr-client_hmr-client_ts_e5046d87._.js",
+      "static/chunks/3b903_next_dist_compiled_react-dom_f351d756._.js",
+      "static/chunks/3b903_next_dist_compiled_next-devtools_index_88c27b45.js",
+      "static/chunks/3b903_next_dist_compiled_e691183a._.js",
+      "static/chunks/3b903_next_dist_client_20c1285e._.js",
+      "static/chunks/3b903_next_dist_da76fcee._.js",
+      "static/chunks/3b903_@swc_helpers_cjs_2a51f1d0._.js",
+      "static/chunks/09-auth_a0ff3932._.js",
+      "static/chunks/turbopack-09-auth_2f5222b7._.js"
+    ]
+  }
+}
