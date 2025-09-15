@@ -16,7 +16,7 @@ export interface CreateNoteParams {
 export type RegisterRequest = {
   email: string;
   password: string;
-  userName: string;
+  username: string;
 };
 
 export const register = async (data: RegisterRequest) => {
@@ -29,7 +29,7 @@ export type UpdateMeRequest = {
 };
 
 export const updateMe = async (data: UpdateMeRequest): Promise<User> => {
-  const res = await nextServer.patch<User>("users/me", data);
+  const res = await nextServer.patch<User>("/users/me", data);
   return res.data;
 };
 
@@ -73,36 +73,21 @@ export const fetchNotes = async (
       search: query,
       tag: tag,
     },
-    headers: {
-      "Content-Type": "application/json",
-    },
   });
   return response.data;
 };
 
 export const fetchNoteById = async (id: string): Promise<Note> => {
-  const response = await nextServer.get<Note>(`/notes/${id}`, {
-    headers: {
-      "Content-Type": "application/json",
-    },
-  });
+  const response = await nextServer.get<Note>(`/notes/${id}`);
   return response.data;
 };
 
 export const createNote = async (newNote: CreateNoteParams): Promise<Note> => {
-  const response = await nextServer.post<Note>(`/notes`, newNote, {
-    headers: {
-      "Content-Type": "application/json",
-    },
-  });
+  const response = await nextServer.post<Note>(`/notes`, newNote);
   return response.data;
 };
 
 export const deleteNote = async (id: string): Promise<Note> => {
-  const response = await nextServer.delete<Note>(`/notes/${id}`, {
-    headers: {
-      "Content-Type": "application/json",
-    },
-  });
+  const response = await nextServer.delete<Note>(`/notes/${id}`);
   return response.data;
 };

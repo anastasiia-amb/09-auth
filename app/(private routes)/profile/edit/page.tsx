@@ -18,6 +18,7 @@ const EditProfile = () => {
   useEffect(() => {
     getMe().then((user) => {
       setEditUser(user ?? null);
+      setUserName(user?.username ?? "");
     });
   }, []);
 
@@ -27,11 +28,13 @@ const EditProfile = () => {
 
   const handleSaveUser = async (event: React.FormEvent<HTMLFormElement>) => {
     event.preventDefault();
-    await updateMe({ username: userName });
-    if (user) {
-      setUser(user);
+    const updatedUser = await updateMe({ username: userName });
+
+    if (updatedUser) {
+      setUser(updatedUser);
+      setEditUser(updatedUser);
     }
-    router.push("/profile");
+    router.back();
   };
   return (
     <>
